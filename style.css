@@ -22,7 +22,15 @@ h1 {
    grid-column-end: 3;
    color: rgb(204, 140, 47);
    font-size: 48pt;
-   font-family: 'Playfair Display', sans-serif;    
+   font-family: 'Playfair Display', sans-serif;   
+   
+   
+   background-image: linear-gradient(120deg, rgb(30,77,53) 0%, rgb(245, 233, 149) 50%, rgb(28, 33, 104) 100%);
+   background-repeat: no-repeat;
+   background-size: 100% 0.2em;
+   background-position: 0 100%;
+   transition: background-size 0.25s ease-in;       
+
 }
 
 
