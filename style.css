@@ -5,11 +5,26 @@ h1 {
    grid-row-start: 1;
    grid-column-start: 1;
    grid-column-end: 3;
-   color: rgb(104, 85, 57);
+   color: rgb(204, 140, 47);
    font-size: 48pt;
    font-family: 'Playfair Display', sans-serif;    
 }
 
+
+h4 {
+   color: rgb(125, 120, 112);
+}
+
+
+ul {
+   list-style-type: circle;
+   grid-row-start: 2;
+   grid-column-start: 2;
+   width: 200px;
+   color: rgb(186, 178, 166);
+   font-size: 14pt;
+   font-family: 'Playfair Display', sans-serif;
+}
 
 
 img {
@@ -22,12 +37,3 @@ img {
    margin: 50px;
 }
 
-
-
-ul {
-   list-style-type: circle;
-   grid-row-start: 2;
-   grid-column-start: 2;
-   width: 200px;
-   font-size: 14pt;
-}
